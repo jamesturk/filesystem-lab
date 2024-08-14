@@ -59,3 +59,7 @@ You'll need to make the following changes:
 
 - Jupiter had three new moons confirmed in 2023, so update Jupiter to have 95 moons instead of 92.
 - There is no `venus.txt`. Venus has no moons. Add a new file for Venus, with "moons: 0".
+
+### Credits
+
+All ASCII art used is in the public domain, taken from asciiart.eu w/ attribution intact.
