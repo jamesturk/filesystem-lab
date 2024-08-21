@@ -10,10 +10,10 @@ In this directory you'll find:
 
 At any point you may type `python3 check.py` **within this directory** and you will see a description of your progress.
 
-Tips:
+### Tips
 
 - Do not rush through to the "brute force" solution, consider what keyboard shortcuts, globs, etc. will be helpful. The goal is to gain familiarity with the terminal.
-- Run `python3 check.py` after each step to ensure that you didn't miss anything.
+- Run `python3 check.py` after each part to ensure that you didn't miss anything.
 
 ## Part 0: Explore `files/`
 
@@ -38,11 +38,7 @@ Run `python3 check.py` (from the `filesystem-lab` directory) when ready.
 
 ## Part 2: Moving Files
 
-Next, you will need to move files into place, `check.py` will check in this order:
-
-- Move animals first.
-- Then planets.
-- Then comets. Files for comets start with `p-`.
+Next, you will need to move files into place, `check.py` will check which files are in the right place.
 
 Tip: if in doubt based on a file name, use `cat` to view the contents.
 
