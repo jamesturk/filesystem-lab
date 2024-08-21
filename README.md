@@ -10,17 +10,16 @@ In this directory you'll find:
 
 At any point you may type `python3 check.py` **within this directory** and you will see a description of your progress.
 
-
 Tips:
 
 - Do not rush through to the "brute force" solution, consider what keyboard shortcuts, globs, etc. will be helpful. The goal is to gain familiarity with the terminal.
-- Run `python check.py` after each step to ensure that you didn't miss anything.
+- Run `python3 check.py` after each step to ensure that you didn't miss anything.
 
 ## Part 0: Explore `files/`
 
 Take a look at the `files/` directory provided. Use `ls`, `cd`, and `cat` to examine the files.
 
-You should discover that there are files about animals, planets, and computer scientists all mixed up.
+You should discover that there are files about animals, planets, and comets all mixed up.
 
 Our goal today is going to be reorganizing these files.
 
@@ -29,7 +28,6 @@ Our goal today is going to be reorganizing these files.
 We'll want to create a few directories:
 
 - `animals/` - to contain all files on animals
-- `people/` - to contain all files on people
 - `space/` - which will have two subdirectories
   - `space/planets`
   - `space/comets`
@@ -44,7 +42,7 @@ Next, you will need to move files into place, `check.py` will check in this orde
 
 - Move animals first.
 - Then planets.
-- Then comets.  Files for comets start with `p-`.
+- Then comets. Files for comets start with `p-`.
 
 Tip: if in doubt based on a file name, use `cat` to view the contents.
 
